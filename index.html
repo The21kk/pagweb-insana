@@ -4,25 +4,83 @@
   <title>Got Damn!!</title>
   <style>
     body {
-      background-color: #00FF99;
+      background-color: #00FF00;
       font-family: Comic Sans MS, cursive, sans-serif;
-      color: yellow;
+      color: red;
       text-align: center;
+      position: relative;
+      height: 100vh;
+      margin: 0;
     }
+
     marquee {
       font-size: 24px;
       color: red;
+      position: absolute;
+      top: 20%;
+      left: 10%;
+      width: 80%;
     }
+
     img {
-      border: 10px dotted blue;
+      position: absolute;
     }
+
+    /* Posiciones de las imágenes, asegurando que no se superpongan */
+    .img1 { top: 5%; left: 10%; width: 200px; }
+    .img2 { top: 30%; left: 50%; width: 200px; }
+    .img3 { top: 50%; left: 80%; width: 80px; }
+    .img4 { top: 50%; left: 70%; width: 100px; }
+    .img5 { top: 80%; left: 30%; width: 100px; }
+    .img6 { top: 60%; left: 10%; width: 200px; }
+    .img7 { top: 20%; left: 70%; width: 200px; }
+    .img8 { top: 40%; left: 30%; width: 200px; }
+    .img9 { top: 80%; left: 40%; width: 150px; }
+
+    .text1 { top: 20%; left: 80%; font-size: 24px; }
+    .text2 { top: 50%; left: 20%; font-size: 16px; }
   </style>
 </head>
 <body>
-  <h1>matense todos</h1>
-  <marquee behavior="scroll" direction="left">El Plan Cóndor fue una campaña de represión y terrorismo de Estado coordinada por dictaduras sudamericanas en las décadas de 1970 y 1980, con apoyo de Estados Unidos, que resultó en miles de asesinatos y desapariciones. citeturn0search0 </marquee>
-  <p>matense todos</p>
-  <img src="got-damn.png" alt="gyatt" width="300">
+  <a href>
+  <img src="got-damn.png" alt="gyatt" class="img1">
+  <h1 class="text1">matense todos</h1>
+  <marquee behavior="scroll" direction="left">El Plan Cóndor fue una campaña de represión y terrorismo de Estado coordinada por dictaduras sudamericanas en las décadas de 1970 y 1980, con apoyo de Estados Unidos, que resultó en miles de asesinatos y desapariciones.  </marquee>
+  <p class="text2">matense todos</p>
+  
+  <!-- Enlaces a cada GIF -->
+  <a href="https://en.akinator.com/" target="_blank">
+    <img src="ALI.gif" alt="gif 1" class="img2">
+  </a>
+  
+  <a href="https://www.youtube.com/watch?v=-B19u9tHnIs" target="_blank">
+    <img src="calavera2.gif" alt="gif 1" class="img3">
+  </a>
+  
+  <a href="https://www.ejemplo3.com" target="_blank">
+    <img src="camera3.gif" alt="gif 1" class="img4">
+  </a>
+  
+  <a href="https://www.ejemplo4.com" target="_blank">
+    <img src="cubone.gif" alt="gif 1" class="img5">
+  </a>
+  
+  <a href="https://www.ejemplo5.com" target="_blank">
+    <img src="deitado.gif" alt="gif 1" class="img6">
+  </a>
+  
+  <a href="https://www.ejemplo6.com" target="_blank">
+    <img src="fantasy.gif" alt="gif 1" class="img7">
+  </a>
+  
+  <a href="https://www.ejemplo7.com" target="_blank">
+    <img src="marihuana.gif" alt="gif 1" class="img8">
+  </a>
+  
+  <a href="https://www.ejemplo8.com" target="_blank">
+    <img src="pinochet.gif" alt="gif 1" class="img9">
+  </a>
+  
+  <p>El fin se acerca...</p>
 </body>
 </html>
-
